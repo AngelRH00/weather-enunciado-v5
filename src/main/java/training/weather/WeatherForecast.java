@@ -4,14 +4,14 @@ import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.javanet.NetHttpTransport;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class WeatherForecast {
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
+public class WeatherForecast {
 	public static String getCityWeather(String city, Date datetime) throws IOException {
 		if (datetime == null) {
 			datetime = new Date();
