@@ -1,2 +1,4 @@
+models\CityCoordinates.class
 training\weather\ForecastEnum.class
 training\weather\WeatherForecast.class
+training\weather\HttpRequester.class
